@@ -526,3 +526,6 @@ Started GET "/assets/application.self.js?body=1" for ::1 at 2015-07-23 13:57:16 
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chicken Run"], ["rating", "G"], ["release_date", "2000-06-21 00:00:00.000000"], ["created_at", "2016-01-19 09:06:54.924027"], ["updated_at", "2016-01-19 09:06:54.924027"]]
   [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/assets/rails.png" for ::1 at 2016-01-19 10:37:28 +0100
